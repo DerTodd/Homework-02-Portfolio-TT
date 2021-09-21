@@ -269,3 +269,20 @@ img.banner {
     visibility: visible;
     z-index: 1;
 }
+/* media queries to change background color of the sections at 992 pixels */
+@media screen and (max-width: 992px) {
+    .invisible {
+      visibility: visible;
+      z-index: 2;
+    }
+    section {
+      background: rgb(88, 85, 85);
+    }
+  }
+  
+  /* media queries to change the background color of the sections at 768 pixels */
+  @media screen and (max-width: 768px) {
+    section {
+      background: rgb(43, 36, 36);
+    }
+  }
