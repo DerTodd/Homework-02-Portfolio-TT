@@ -144,7 +144,7 @@ img.banner {
     left: 4%;
     z-index: 1;
     background-color: var(--box-color);
-    padding: 1em;
+    /* padding-right: 1em; */
     width: 50%;  
 }
 .floatsm:hover {
@@ -183,6 +183,7 @@ img.banner {
     text-decoration: none;
     text-align: left;
     width: 100%;
+    padding-right: 1em;
 }
 .really_annoying {
     position: fixed;
@@ -210,7 +211,7 @@ img.banner {
     width: 100%;
     background-color: var(--inside);
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .widehalf {
     display:flex;
