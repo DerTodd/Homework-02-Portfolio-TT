@@ -1,1 +1,271 @@
 /* styles for the Portfolio */
+* {
+    box-sizing: border-box;
+}
+:root {
+    --back: rgb(44, 39, 39);
+    --box-color: rgb(80, 226, 226);
+    --inside: rgb(212, 207, 207);
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    display: flex;
+    background-color: var(--back);
+    justify-content: space-between;
+}
+h1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    background-color: var(--box-color);
+    max-width: 250px;
+    padding-right: .5em;
+}
+
+nav {
+    display: flex;
+    min-width: 500px;
+    justify-content: flex-end;
+    margin-top: 3em;
+    flex-wrap: wrap;
+}
+nav a {
+    text-decoration: none;
+    color: var(--box-color);
+    text-align: center;
+    width: 20%;
+    padding-bottom: .5em;
+    border-bottom: 2px solid var(--box-color);
+
+}
+.widebanner {
+    width: 100%;
+    background-color: var(--inside);
+    display: flex;
+    justify-content: center;
+}
+
+.wide {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.widehalf {
+    display:flex;
+    justify-content: flex-start;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+section {
+    display: flex;
+    background-color: var(--inside);
+    justify-content: space-between;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 24%;
+    min-width: 24%;
+    max-width: 250px;
+    padding-right: .5em;
+    line-height: 2em;
+    text-align:right;
+    border-right: 2px solid black;
+
+}
+article {
+    justify-content: flex-end;
+    width: 74%;
+    padding-right: .5em;
+}
+p {
+    display: flex;
+    flex-wrap: wrap;
+    text-indent: 3em;
+    justify-items: flex-start;
+}
+figure {
+    display: flex;
+    justify-content: flex-start;
+}
+img.flip {
+    border: 3px solid var(--box-color);
+    margin-left: 16px;
+    margin-right: 16px;
+}
+img.flip:hover {
+    border: 10px solid var(--box-color);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img.banner {
+    display:flex;
+    border-left: 2px solid var(--inside);
+    border-right: 2px solid var(--inside);
+}
+
+#samples {
+    width: 74%;
+    margin-left: -5%;
+}
+.samplebox {
+    display: flex;
+    
+}
+
+#line1 {
+    /* trying the flex 
+    flex: 1 1 100%; */
+    display: flex;
+    width: 95%;
+    max-width: 900px;
+    margin: 16px;
+}
+#line2 {
+    display: flex;
+    width: 93%;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+#line3 {
+    display:flex;
+    width: 93%;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+.contact {
+    display: flex;
+    min-width: 500px;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    background-color: var(--back);
+    width: 77%;
+}
+.contact a {
+    display: flex;
+    color: var(--box-color);
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: .5em;
+    flex-wrap: wrap;
+    width: 18%;
+    font-weight: 900;
+}
+
+.float {
+    position: relative;
+    bottom: 20%;
+    left: 2%;
+    z-index: 1;
+    background-color: var(--box-color);
+    padding: 1em;
+    width: 33%;
+    
+}
+.floatsm {
+    position: relative;
+    bottom: 30%;
+    left: 4%;
+    z-index: 1;
+    background-color: var(--box-color);
+    padding: 1em;
+    width: 50%;
+    
+}
+.floatxsm {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    background-color: var(--box-color);
+    right: 8%;
+    margin-top: 16px !important;
+    margin-bottom: 32px !important;
+    padding-top: 2px !important;
+    
+    
+}
+.float:hover {
+    position: relative;
+    bottom: 20%;
+    left: 2%;
+    z-index: 1;
+    background-color: lime;
+    padding: 1em;
+    width: 33%;
+    
+}
+.floatsm:hover {
+    position: relative;
+    bottom: 30%;
+    left: 4%;
+    z-index: 1;
+    background-color: lime;
+    padding: 1em;
+    width: 50%;
+    
+}
+.inside {
+    color: var(--back);
+    text-decoration: none;
+    text-align: left;
+}
+.inside a {
+    text-decoration: none;
+    color: var(--back);
+    text-decoration: none;
+    font-weight:900;
+}
+.insideb {
+    display: flex;
+    color: var(--back);
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+}
+
+.annoying {
+    position: fixed;
+    bottom: 7em;
+    right: 5em;
+    width: 200px;
+    height: 200px;
+}
+
+.really_annoying {
+    position: fixed;
+    bottom: 7em;
+    right: 5em;
+    width: 200px;
+    height: 200px;
+}
+.annoying:hover {
+    position: fixed;
+    bottom: 7em;
+    right: 5em;
+    width: 200px;
+    height: 200px;
+}
+
+.really_annoying:hover {
+    position: fixed;
+    bottom: 7em;
+    right: 5em;
+    width: 200px;
+    height: 200px;
+}
+
+#invisible {
+    visibility: hidden;
+    z-index: 1;
+}
+#invisible:hover {
+    visibility: visible;
+    z-index: 1;
+}
