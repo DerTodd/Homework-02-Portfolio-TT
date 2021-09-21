@@ -22,3 +22,6 @@ The links at the page are active and move to the appropriate linked id down the 
 ![Porfolio](./Assets/Images/Portfolio-TT.jpg)
 
 #### Links
+My favorite [Portfolio](https://dertodd.github.io/Homework-02-Portfolio-TT/)
+
+My favorite [GitHub](https://github.com/DerTodd/Homework-02-Portfolio-TT)
