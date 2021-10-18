@@ -219,6 +219,14 @@ img.banner {
     margin-right: 2px;
     margin-left: 2px;
 }
+.eight {
+    max-width: 800px;
+    max-height: 400px;
+}
+.four {
+    max-width: 400px;
+    max-height: 400px;
+}
 
 /* IDs */
 #invisible {
