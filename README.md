@@ -1,8 +1,24 @@
 # Homework-02-Portfolio-TT
 ## Portfolio
 Todd Taylor
-9-20 (Unification Day)
+9-20 (Unification Day)...
+Now we fade to a cool November day
 
+
+  # Updated Portfolio
+
+  ## Table of Contents
+  * [Description](#descrip)
+  * [Installation](#install)
+  * [Usage](#usage)
+  * [Contributions](#contri)
+  * [Tests](#tests)
+  * [Contact & Qustions](#contact)
+  * [License](#license)
+  * [Powered By](#powered-by)
+  <a name='descrip'></a>
+  ### Description:
+      Update the portfolio to include 3 works that you have completed from class of in projects.  Github with 3 pinned items. 
 ### Workflow
 We were tasked with creating a website to showcase the projects that we will create in this course.  
 Since we have no real projects, I populated stuff with my wonderful animal and location photos.  The links will take you to nice websites that will make you want to break your chains of quiet solitude grading endless projects. Consider this fair warning to not look any further.  
@@ -17,6 +33,42 @@ We were also instructed to place an image of ourselves on the page.  One of thes
 
 The links at the page are active and move to the appropriate linked id down the page.  
 
+
+  <a name='install'></a>
+  ### Installation:
+      https://github.com/DerTodd/Homework-02-Portfolio-TT
+
+  <a name='usage'></a>
+  ### Usage: 
+      Show your work
+
+  <a name='contri'></a>
+  ### Contributions:
+      N/A
+
+  <a name='tests'></a>
+  ### Tests
+      N/A
+
+  <a name='contact'></a>
+  ### Contact & Qustions
+  If you have any questions, suggestions or concerns, please contact me at:  
+  GitHub  
+  https://github.com/DerTodd  
+  https://github.com/DerTodd/Homework-02-Portfolio-TT
+
+  email  
+      todd.taylor@utexas.edu  
+
+  <a name='licnese'></a>
+  ### License:
+  [MIT](https://opensource.org/licenses/MIT)
+
+  <a name='powered-by'></a>
+  #### Powered By
+  ![Monster](./Assets/Images/monster.jpg)  
+  ![Coke](./Assets/Images/coke.jpg)  
+  ![Alani Nu](./Assets/Images/alani_nu.jpg) 
 
 ### Website
 ![Porfolio](./Assets/Images/Portfolio-TT.jpg)
