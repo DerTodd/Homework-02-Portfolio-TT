@@ -56,6 +56,7 @@ The links at the page are active and move to the appropriate linked id down the 
   GitHub  
   https://github.com/DerTodd  
   https://github.com/DerTodd/Homework-02-Portfolio-TT
+  https://dertodd.github.io/Homework-02-Portfolio-TT/
 
   email  
       todd.taylor@utexas.edu  
