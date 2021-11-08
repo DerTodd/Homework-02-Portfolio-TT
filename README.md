@@ -71,7 +71,7 @@ The links at the page are active and move to the appropriate linked id down the 
   ![Alani Nu](./Assets/Images/alani_nu.jpg) 
 
 ### Website
-![Porfolio](./Assets/Images/Portfolio-TT.jpg)
+![Porfolio](./Assets/Images/new_port.png)
 
 #### Links
 My favorite [Portfolio](https://dertodd.github.io/Homework-02-Portfolio-TT/)
